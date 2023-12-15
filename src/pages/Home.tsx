@@ -14,7 +14,7 @@ const getNext = (): (() => string) => {
   };
 };
 
-const contract = "0x60eED1CC6aBA31D5a8fB695f128De8753Cc45b38";
+const contract = "0xF4816156055Ef0C7Ed80c38BD1d790AE036b9384";
 let getGenerator = getNext();
 let rpc = getGenerator();
 let startInterval: NodeJS.Timeout;
