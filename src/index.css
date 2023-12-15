@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* + * {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+:root body {
+  color: #fff;
+  --adm-color-text: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica,
+    Segoe UI, Arial, Roboto, 'PingFang SC', miui, 'Hiragino Sans GB',
+    'Microsoft Yahei', sans-serif;
+  --fallback-bc: #ffffff40;
+  font-size: initial;
+}
+
+.assets-active {
+  border: 2px solid transparent !important;
+  background-clip: padding-box, border-box !important;
+  background-origin: padding-box, border-box !important;
+  background-image: linear-gradient(to right, #1d1f2c, #1d1f2c),
+    linear-gradient(to right, #3ecd75, #36e4c3) !important;
+  border-radius: 8px;
+}
+.confirm-btn {
+  background-image: linear-gradient(to right, #28d86c, #36e4c3);
+}
+.modal-bg {
+  background-image: url('/assets/bg.png');
+  background-size: cover;
+  width: 90vw;
+}
+.modal-vilid-bg {
+  background-color: #1a1d2a;
+  width: 88vw;
+  color: #98acd0;
+}
+.modal-vilid-bg-header {
+  background-color: #242938;
+}
+.adm-center-popup {
+  --max-width: 100vw !important;
+}
+
+.hash-card-shardow {
+  box-shadow: 0.01667rem 0.02667rem 0.3453333rem 0.2rem #63856e;
+}
+.header-shardow {
+  box-shadow: 0px 0px 8px 0px #000000;
+}
